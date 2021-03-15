@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+#search-container {
+  display: flex;
+}
+
+#user-list-container {
+  display: flex;
+}
+
+#user-list, #user-statistics {
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 50%;
+}
+
+.user {
+  display: flex;
+}
+
+img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#count-users {
+  margin-right: 10px;
+}
+
+#user-result, #user-statistics-result {
+  padding: 10px;
+}

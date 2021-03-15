@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Consulta de usuários</title>
+</head>
+<body>
+  <div class="container">
+    <div id="form" class="row">
+      <h2>Pesquisa de usuários</h2>
+      <form>
+        <div id="search-container">
+          <input type="text" id="input-user-search" name="search" placeholder="Digite no mínimo uma letra e em seguida tecle ENTER">
+          <a id="btn-search" class="waves-effect waves-light btn">buscar</a>
+        </div>       
+      </form>
+    </div>
+    <div id="user-list-container" class="row">
+      <div id="user-list">
+        <h5><span id="count-users"></span>usuário(s) encontrado(s)</h5>
+        <div id="user-result">
+
+        </div>
+      </div>
+      <div id="user-statistics">
+        <h5>Estatísticas</h5>
+        <div id="user-statistics-result"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./node_modules/materialize-css/dist/js/materialize.js"></script>
+  <script defer src="./js/script.js"></script>
+</body>
+</html>
